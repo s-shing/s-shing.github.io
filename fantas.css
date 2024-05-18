@@ -1,0 +1,310 @@
+:root {
+  --main-color: #005153;
+  --bright-color: #00c4a3;
+  --white-color: #d7e2e2;
+  --chat-color: #000000;
+  --bg-color: #1b2129;
+  --dark-color: #001e1e;
+  --default-font: Montserrat, Courier; 
+  --standard-space:8px;
+  --half-space: calc(var(--standard-space)/2);
+  --small-radius:5px;
+  --border-size: 2px;
+  --border-radius: 15px;
+  --channels-default: var(--white-color);
+
+}
+
+body{
+  font-family: var(--default-font);
+}
+
+.typeWindows_e41dab {
+  height: 18px;
+  width: 100vw;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: var(--bg-color);
+}
+.wordmarkWindows_ffbc5e{
+  color: var(--bright-color);
+}
+.searchBar__310d8{
+  background-color: var(--main-color);
+}
+
+.winButton_f17fb6{
+  color: var(--white-color);
+}
+
+.circleIconButton__05cf2{
+  background-color: var(--bg-color);
+  color: var(--bright-color)
+}
+.guilds__2b93a {
+  
+  margin: var(--standard-space);
+  margin-right: var(--half-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+.flowerStar_fa5ad8, .dropdownButton_a246fc, .icon__5c8c7,.icon__67ab4, .actionIcon_b149a2,.icon__4ee3f{
+  filter: brightness(0) saturate(100%) invert(66%) sepia(68%) saturate(3866%) hue-rotate(129deg) brightness(95%) contrast(101%);
+
+}
+
+.clickable__1383f{
+  margin: var(--half-space);
+  margin-top: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+
+.members__573eb{
+  margin: var(--half-space);
+  margin-top: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+
+.scroller__1f498{
+  margin: var(--half-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+
+.wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, .circleIconButton__05cf2.selected_aded59{
+  background-color:var(--bright-color);
+}
+.wrapper__8436d .childWrapper_a6ce15, .actionButton__2b4bb,.emptyCard__204d9{
+  background-color:var(--main-color);
+
+}
+
+.item_f9d377, .guildSeparator__75928{
+  background-color: var(--bright-color);
+
+}
+ 
+.container_d1f8f5, .base_c0676e, .sidebar_e031be, .theme-dark .container__7e23c, .container_f79ab4 {
+  
+  background-color: var(--bg-color);
+}
+
+.searchBar__621ec .searchBarComponent__8f95f, .emptyText__18c2a{
+  background-color:var(--main-color);
+
+  color: var(--white-color)
+}
+.theme-dark .scroller__89969, .member_b44d5d{
+  background-color: var(--chat-color);
+}
+.privateChannels__9b518{
+  margin: var(--standard-space);
+  margin-right: var(--half-space);
+  margin-left: var(--half-space);
+  margin-bottom: var(--half-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+  
+}
+.panels__58331{
+  margin: var(--standard-space);
+  margin-right: var(--half-space);
+  margin-left: var(--half-space);
+  margin-top: var(--half-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+.container_debb33{
+  background: none !important;
+
+}
+.title__4a7a9,.defaultColor__8610e{
+  color: var(--bright-color);
+}
+.subtext_ce73b4{
+  color:var(--main-color)
+}
+
+.withTagAsButton_e22174, .withTagless__058f8{
+  margin-right:-3px;
+}
+button.button_ae40a4, span.button_ae40a4{
+  color:var(--bright-color) !important;
+}
+button.button_ae40a4, span.button_ae40a4, .icon_ae0b42{
+  filter: brightness(0) saturate(100%) invert(66%) sepia(68%) saturate(3866%) hue-rotate(129deg) brightness(95%) contrast(101%);
+}
+.chatContent_f087cb{
+  margin: var(--half-space);
+  margin-bottom: var(--standard-space);
+  margin-right: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+
+
+
+.members__573eb{
+margin: var(--half-space);
+margin-left:0px;
+  margin-bottom: var(--standard-space);
+  margin-right: var(--standard-space);
+
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+.clickable__797c7{
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--small-radius);
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  margin-left:var(--standard-space);
+}
+
+.theme-dark .themed_b152d4{
+  margin: var(--half-space);
+  margin-top: var(--standard-space);
+  margin-right: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+  width:98.5%;
+
+}
+
+.peopleColumn__0c784{
+  margin: var(--half-space);
+  margin-bottom: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+}
+
+.container__3673d{
+  margin: var(--half-space);
+  margin-bottom: var(--standard-space);
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--chat-color);
+  
+}
+.subtitleContainer_f50402, .chat__52833{
+  background: var(--bg-color);
+}
+
+
+.scrollableContainer_ff917f{
+  margin-bottom: 24px;
+
+
+  border: var(--border-size) solid var(--main-color);
+  border-radius: var(--border-radius);
+  background-color: var(--dark-color);
+  z-index:1000000000000000000000000000000000;
+}
+.channelTextArea_c2094b {
+  background-color: var(--dark-color);
+  border-radius: var(--border-radius);
+  
+}
+
+.buttons__7ecff{
+  justify-content: flex-end;
+  padding-right:10px;
+}
+.themedBackground__3a4c0{
+  background: var(--dark-color)
+}
+.buttons__7ecff, .attachWrapper_d01704{
+  filter: brightness(0) saturate(100%) invert(66%) sepia(68%) saturate(3866%) hue-rotate(129deg) brightness(95%) contrast(101%);
+
+}
+.theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after, .theme-dark .panel_bd8c76{
+  background:none;
+}
+.activityPanel_b73e7a, .container_6sXIoE{
+  border-bottom: 1px solid var(--main-color)
+}
+
+.managedReactiveScroller__08e95::-webkit-scrollbar-thumb, .peopleList_d2f527::-webkit-scrollbar-thumb {
+  background: var(--bright-color);
+}
+.managedReactiveScroller__08e95::-webkit-scrollbar, .peopleList_d2f527::-webkit-scrollbar {
+  width: 5px;
+}
+.theme-dark .children_cde9af:after{
+  background:none;
+}
+
+.quickswitcher_b5bb0a{
+  background-color: var(--bg-color);
+    color: var(--white-color);
+}
+
+.input__2a648, .scroller_d4b86c {
+  background-color: var(--chat-color);
+}
+
+.avatar__7bd22, .avatar__08316, .avatar__6337f, .avatar__8986c{
+  border: var(--border-size) solid var(--main-color);
+  border-radius: 50%;
+}
+.username__0b0e7, .membersGroup_cad095, .actions_bd37ed{
+  color: var(--main-color);
+}
+.cozy_f5c119 .timestamp_c79dd2, .content__7191e{
+  color: var(--bright-color);
+}
+.searchBar__5a20a{
+  background-color: var(--chat-color);
+}
+
+.modeSelected__473f1 .link_ddbb36, .modeSelected__473f1:hover .link_ddbb3, .interactiveSelected__689f0{
+  background: var(--main-color) !important;
+}
+
+.modeSelected__473f1 .name__4eb92, .modeSelected__473f1:hover .name__4eb92, .modeConnected__52a8f .name__4eb92, .modeConnected__52a8f:hover .name__4eb92, .modeUnreadImportant__35358 .name__4eb92, .modeUnreadImportant__35358:hover .name__4eb92{  
+  color: var(--bright-color)
+}
+
+.container_bd15da{
+  background: var(--bg-color)
+}
+.nowPlayingColumn_b025fe{
+  background: var(--bg-color);
+  margin-bottom:calc(var(--standard-space)*2);
+  margin-right:var(--standard-space);
+  border: var(--border-radius)
+}
+
+.container__3673d{
+  background-color: var(--chat-color);
+}
+.interactive__0786a:hover, .wrapper__612a5:hover .link_ddbb36, .peopleListItem_dab480:hover, .peopleListItem_dab480.active__6b8ff{
+  background-color: var(--dark-color);
+}
+
+.scroller__7c25e{
+  border:none;
+}
+
+:root{
+  --background-primary:var(--chat-color);
+  --background-secondary:var(--chat-color);
+  --interactive-normal:var(--main-color);
+  --channels-default:var(--white-color);
+  --interactive-active: var(--bright-color);
+  --background-modifier-hover: var(--main-color);
+  --profile-body-background-color:var(--chat-color);
+}
