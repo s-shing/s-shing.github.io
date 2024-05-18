@@ -1,0 +1,25 @@
+/** 
+* @name FantaTeal
+* @author Seb! :3
+* @version 0.1.0
+* @description Enjoy!
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://raw.githubusercontent.com/s-shing/fantaTeal/e4416e605f05133a3b6387c2c571c94686ceeeaa/fantas.css');
+
+:root {
+  --main-color: #005153;
+  --bright-color: #00c4a3;
+  --white-color: #d7e2e2;
+  --chat-color: #000000;
+  --bg-color: #1b2129;
+  --dark-color: #001e1e;
+  --default-font: Montserrat, Courier; 
+  --standard-space:8px;
+  --half-space: calc(var(--standard-space)/2);
+  --small-radius:5px;
+  --border-size: 2px;
+  --border-radius: 15px;
+  --channels-default: var(--white-color);
+
+}
