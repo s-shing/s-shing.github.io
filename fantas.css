@@ -1,5 +1,5 @@
 :root {
-  --main-color: #055153;
+  --main-color: #005153;
   --bright-color: #00c4a3;
   --white-color: #d7e2e2;
   --chat-color: #000000;
@@ -227,7 +227,7 @@ margin-left:0px;
   background: var(--dark-color)
 }
 .buttons__7ecff, .attachWrapper_d01704{
-  filter: brightness(0) saturate(100%) invert(66%) sepia(68%) saturate(3866%) hue-rotate(129deg) brightness(95%) contrast(101%);
+  /*filter: brightness(0) saturate(100%) invert(66%) sepia(68%) saturate(3866%) hue-rotate(129deg) brightness(95%) contrast(101%);*/
 
 }
 .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after, .theme-dark .panel_bd8c76{
