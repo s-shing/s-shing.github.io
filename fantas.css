@@ -298,10 +298,12 @@ margin-left:0px;
 .scroller__7c25e{
   border:none;
 }
+
 .container_e1958d{
   background: var(--chat-color);
   border-radius: var(--border-radius);
 }
+
 .callContainer__1477d{
   background: var(--chat-color) !important;
   border: var(--border-size) solid var(--main-color);
@@ -312,7 +314,6 @@ margin-left:0px;
 }
 
 .colorable__4f530.primaryDark_ec74a7, .colorable__4f530.primaryDark_ec74a7 .centerIcon_e3df23{
-
  color: var(--bright-color);
  background: var(--bg-color);
 }
@@ -342,6 +343,7 @@ margin-left:0px;
 .searchHeader__4d70e{
   background-color: var(--chat-color);
 }
+
 .unread__75c9f{
   background-color: var(--main-color);
 
