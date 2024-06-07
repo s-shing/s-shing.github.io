@@ -205,8 +205,6 @@ margin-left:0px;
 
 
 .scrollableContainer_ff917f{
-  margin-bottom: 24px;
-
 
   border: var(--border-size) solid var(--main-color);
   border-radius: var(--border-radius);
@@ -214,7 +212,7 @@ margin-left:0px;
   z-index:1000000000000000000000000000000000;
 }
 .channelTextArea_c2094b {
-  background-color: var(--dark-color);
+  background-color: transparent;
   border-radius: var(--border-radius);
   
 }
