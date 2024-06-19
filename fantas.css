@@ -21,7 +21,7 @@ body{
   color: var(--white-color);
 }
 
-.circleIconButton_db6521{
+.circleIconButton_db6521, .actionButton_e01b91{
   background-color: var(--bg-color);
   color: var(--bright-color)
 }
@@ -84,7 +84,7 @@ body{
 .icon_effbe2{
   filter:brightness(0) invert(1);
 }
-.theme-dark .scroller_fea3ef, .members_cbd271 {
+.theme-dark .scroller_fea3ef, .members_cbd271, .member_a31c43, .theme-dark .scroller_c47fa9 {
   background-color: var(--chat-color);
 }
 
@@ -99,7 +99,7 @@ body{
   background-color: var(--chat-color);
   
 }
-.container_b2ca13{
+.container_c2739c{
   margin: var(--standard-space);
   margin-right: var(--half-space);
   margin-left: var(--half-space);
@@ -115,7 +115,7 @@ body{
 .title_d1da5f,.defaultColor_a595eb{
   color: var(--bright-color);
 }
-.subtext_e06aad, {
+.subtext_e06aad,.subtext_f3939d {
   color:var(--main-color)
 }
 
@@ -247,7 +247,7 @@ margin-left:0px;
   background-color: var(--chat-color);
 }
 
-.avatar_e9f61e, .avatar_b211c6, .avatar_b2ca13, .avatar_ec86aa{
+.avatar_e9f61e, .avatar_b211c6, .avatar_b2ca13, .avatar_ec86aa,.avatar_f3939d{
   border: var(--border-size) solid var(--main-color);
   border-radius: 50%;
 }
@@ -261,11 +261,11 @@ margin-left:0px;
   background-color: var(--chat-color);
 }
 
-.modeSelected__473f1 .link_ddbb36, .modeSelected__473f1:hover .link_ddbb3, .interactiveSelected__689f0{
+.modeSelected__473f1 .link_ddbb36, .interactive_c91bad:hover, .interactiveSelected_c91bad{
   background: var(--main-color) !important;
 }
 
-.modeSelected__473f1 .name__4eb92, .modeSelected__473f1:hover .name__4eb92, .modeConnected__52a8f .name__4eb92, .modeConnected__52a8f:hover .name__4eb92, .modeUnreadImportant__35358 .name__4eb92, .modeUnreadImportant__35358:hover .name__4eb92{  
+.modeSelected__473f1 .name__4eb92, .interactive_c91bad:hover , .interactiveSelected_c91bad, .modeConnected__52a8f .name__4eb92, .modeConnected__52a8f:hover .name__4eb92, .modeUnreadImportant__35358 .name__4eb92, .modeUnreadImportant__35358:hover .name__4eb92{  
   color: var(--bright-color)
 }
 
@@ -310,7 +310,7 @@ margin-left:0px;
  background: var(--bg-color);
 }
 
-.colorable__4f530.white_ce1c7b, .colorable__4f530.white_ce1c7b .centerIcon_e3df23{
+.colorable__4f530.white_ce1c7b, .colorable__4f530.white_ce1c7b .centerIcon_e3df23, .username_f3939d {
   color: var(--bright-color);
 }
 
@@ -340,3 +340,6 @@ margin-left:0px;
   background-color: var(--main-color);
 
 }
+
+
+
