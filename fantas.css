@@ -1,3 +1,4 @@
+
 body{
   font-family: var(--default-font);
 }
@@ -281,6 +282,7 @@ margin-left:0px;
 }
 .cozy_ec86aa .timestamp_ec86aa, .content_fc5f50{
   color: var(--main-color);
+  background-color: var(--chat-color);
 }
 .searchBar__5a20a{
   background-color: var(--chat-color);
@@ -373,4 +375,3 @@ border-radius: var(--small-radius);
 .container_cbd271{
   background-color: var(--bg-color);
 }
-
